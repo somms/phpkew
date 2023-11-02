@@ -1,0 +1,29 @@
+{
+  "name": "somms/phpkew",
+  "description": "PHP por of the pykew library from RGBKew for accessing Kew's data services ",
+  "minimum-stability": "beta",
+  "license": "MIT License (MIT)",
+  "authors": [
+    {
+      "name": "Julio Rabadán González",
+      "email": "julio@somms.net"
+    }
+  ],
+  "require": {
+    "duzun/hquery": "2.2.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4" : {
+      "Somms\\PHPKew\\" : "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.4.2"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Somms\\Tests\\PHPKew\\": "test/"
+    }
+  }
+}
