@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6be4f4efa48a8166da3fecbaa6f519a1",
+    "content-hash": "a9d32112c62fd372b147e64aa222ebf6",
     "packages": [
         {
             "name": "duzun/hquery",
-            "version": "2.2.0",
+            "version": "2.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/duzun/hQuery.php.git",
-                "reference": "0cc3ba6b3331de28f26e06e326e5ab5a1f55b540"
+                "reference": "b9b144abce304260811a640345bf67bf276e2944"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/duzun/hQuery.php/zipball/0cc3ba6b3331de28f26e06e326e5ab5a1f55b540",
-                "reference": "0cc3ba6b3331de28f26e06e326e5ab5a1f55b540",
+                "url": "https://api.github.com/repos/duzun/hQuery.php/zipball/b9b144abce304260811a640345bf67bf276e2944",
+                "reference": "b9b144abce304260811a640345bf67bf276e2944",
                 "shasum": ""
             },
             "require": {
@@ -25,9 +25,11 @@
             },
             "require-dev": {
                 "apigen/apigen": "~4.1",
-                "guzzlehttp/psr7": "^1.4",
-                "php-http/discovery": "^1.4",
-                "php-http/mock-client": "^1.1"
+                "guzzlehttp/psr7": "^1.5",
+                "php-http/discovery": "^1.6",
+                "php-http/mock-client": "^1.2",
+                "symfony/css-selector": "^4.2",
+                "symfony/dom-crawler": "^4.2"
             },
             "suggest": {
                 "php-http/discovery": "Might be required by hQuery::sendRequest()",
@@ -75,7 +77,7 @@
                 "issues": "https://github.com/duzun/hQuery.php/issues",
                 "source": "https://github.com/duzun/hQuery.php"
             },
-            "time": "2018-09-25T18:50:04+00:00"
+            "time": "2019-05-04T12:42:43+00:00"
         }
     ],
     "packages-dev": [
@@ -1699,6 +1701,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
+        "php": ">=8.2",
         "ext-json": "*"
     },
     "platform-dev": [],

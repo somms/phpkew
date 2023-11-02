@@ -2,7 +2,7 @@
   "name": "somms/phpkew",
   "description": "PHP por of the pykew library from RGBKew for accessing Kew's data services ",
   "minimum-stability": "beta",
-  "license": "MIT License (MIT)",
+  "license": "MIT",
   "authors": [
     {
       "name": "Julio Rabadán González",
@@ -10,7 +10,8 @@
     }
   ],
   "require": {
-    "duzun/hquery": "2.2.0",
+    "php": ">=8.2",
+    "duzun/hquery": "~2.2.0",
     "ext-json": "*"
   },
   "autoload": {
