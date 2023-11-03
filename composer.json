@@ -1,6 +1,6 @@
 {
   "name": "somms/phpkew",
-  "description": "PHP por of the pykew library from RGBKew for accessing Kew's data services ",
+  "description": "PHP port of the pykew library from RGBKew for accessing Kew's data services ",
   "minimum-stability": "beta",
   "license": "MIT",
   "authors": [
